@@ -10,7 +10,8 @@ def middleSubstring(stringInput):
     front = math.ceil(middle/2)
 
     # 文字列の長さが2以下の時は、最初の文字を返す
-    if length <= 2: return stringInput[0]
+    if length <= 2:
+      return stringInput[0]
 
     # 文字列の長さが2以下の時は、最初の文字を返す
     return stringInput[front:front + middle]
